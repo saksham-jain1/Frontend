@@ -112,6 +112,11 @@ tr:nth-child(even)
     width: 500px;
 }
 
+li::marker
+{
+    color: red;
+}
+
 .colList>li
 {
     background-color: red;
