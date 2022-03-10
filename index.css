@@ -150,6 +150,15 @@
     overflow: hidden;
 }
 
+.colList :nth-child(3n+1)
+{
+    background-color: yellow;
+}
+.colList :nth-child(3n+0)
+{
+    background-color: orange;
+}
+
 .box
 {
     height: 80px;
